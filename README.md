@@ -16,8 +16,6 @@ Upload images and make classification on:
 
 For more details on the model training process, please visit the Kaggle project [here](https://www.kaggle.com/code/abhashrai/traffic-congestion-prediction-cnn-xception/).
 
-<br>
-
 # Table of Content
 
 - [Prerequisites](#prerequisites)
@@ -26,8 +24,6 @@ For more details on the model training process, please visit the Kaggle project 
 - [Model Summary](#model-summary)
 - [Model Evaluation](#model-evaluation)
 
-<br>
-
 # Prerequisites
 
 - You must have `Python 3` installed on your system.
@@ -35,37 +31,27 @@ For more details on the model training process, please visit the Kaggle project 
 - You must have `Git LFS` installed on your system (for cloning/downloading pre-trained model file).
 - **(Optional)** You should have `Node.js` (npm) installed on your system (if using development server)
 
-<br>
-
 # Demo
 
-<p align="center">
-  <b>Step 1: Upload an image</b>
-</p>
+<h4 align="center">
+  <b>Step 1: Upload an image ↓</b>
+</h4>
 
 ![Step 1 - Upload Image](./documentation/step1.png)
 
-<br>
-
-<p align="center">
-  <b>Step 2: Crop the image into square ratio</b>
-</p>
+<h4 align="center">
+  <b>Step 2: Crop the image into square ratio ↓</b>
+</h4>
 
 ![Step 2 - Crop Image](./documentation/step2.png)
 
-<br>
-
-<p align="center">
-  <b>Step 3: Get the results</b>
-</p>
+<h4 align="center">
+  <b>Step 3: Get the results ↓</b>
+</h4>
 
 ![Step 3 - Result](./documentation/step3.png)
 
-<br>
-
 # Usage
-
-> Before following the below procedure, go to <a href='https://drive.google.com/file/d/1ytKJ1jTt6GEtDOpTHRtWaNHQIAaRSHPF/view?usp=sharing'>this link</a> and download the model `traffic_classifier.h5` and place it into the `/traffic-image-classifier` directory.
 
 1. Clone the repository (In terminal):
 
@@ -78,6 +64,8 @@ For more details on the model training process, please visit the Kaggle project 
     ```
     cd traffic-image-classifier
     ```
+
+    > Before following the below procedure, go to <a href='https://drive.google.com/file/d/1ytKJ1jTt6GEtDOpTHRtWaNHQIAaRSHPF/view?usp=sharing'>this link</a> and download the model `traffic_classifier.h5` and place it into the `/traffic-image-classifier` directory.
     
 3. Install the required dependencies:
 
@@ -100,8 +88,6 @@ For more details on the model training process, please visit the Kaggle project 
 6. **(Optional)** If you want to run development server:
 
    Open `/react-app-development` directory in your terminal. Then install project dependencies using `npm install` command. Wait until installation process completes, then run the development server by running the command `npm start`.
-
-<br>
 
 # Model Summary
 
@@ -145,15 +131,13 @@ Non-trainable params: 20,866,536
 _________________________________________________________________
 ```
 
-<br>
-
 # Model Evaluation
 
 ![Data split distribution chart](./documentation/data_split.png)
 
 The data has been partitioned into three sets for training, and validation, each containing samples from five distinct classes. The split ratios are as follows: 85% for training, 15% for validation. Despite the limited data, the model successfully met my expectations:
 
-> For validation data:
+> #### For validation data:
 
 ```Python
 score, acc = model.evaluate(validation_generator)
@@ -188,7 +172,7 @@ Classification Report:
 weighted avg       0.95      0.95      0.95      1900
 ```
 
-> For train data:
+> #### For train data:
 
 ```Python
 score, acc = model.evaluate(train_generator)
