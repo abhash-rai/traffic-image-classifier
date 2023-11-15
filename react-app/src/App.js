@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import MainContext from "./Components/MainContext";
@@ -52,15 +52,15 @@ function App() {
         }}
       >
         {isLoading && <LoadingScreen />}
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
-            <Route index path="/" element={<Upload />} />
+            <Route path="/" element={<Upload />} />
 
             <Route path="/crop" element={<Crop />} />
 
             <Route path="/result" element={<Result />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </MainContext.Provider>
     </div>
   );
