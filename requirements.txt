@@ -1,0 +1,8 @@
+tensorflow==2.12.0
+matplotlib==3.7.1
+opencv_python==4.7.0.72
+Pillow==10.1.0
+uvicorn==0.23.2
+fastapi==0.104.0
+requests==2.31.0
+python_multipart==0.0.6
