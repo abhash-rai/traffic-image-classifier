@@ -1,4 +1,4 @@
-# traffic-congestion-classifier
+# traffic-image-classifier
 
 > #### TASKS PERFORMED 🡆 Data Collection (Manual, Web Scrapping)✅, Exploratory Data Analysis✅, Data Augmentation✅, Model Training (ML Algorithms, CNN, Transfer Learning)✅, Hyperparameter Tuning✅, Model Validation✅, Deployment (UI Design, React and FastAPI)✅
 
