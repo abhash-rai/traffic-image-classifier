@@ -23,6 +23,7 @@ For more details on the model training process, please visit the Kaggle project 
 - [Usage](#usage)
 - [Model Summary](#model-summary)
 - [Model Evaluation](#model-evaluation)
+- [Acknowledgement](#acknowledgement)
 
 # Prerequisites
 
@@ -208,3 +209,10 @@ weighted avg       0.97      0.97      0.97     10755
 ```
 
 ![Training and validation loss and accuracy graph](./documentation/training_valid_loss_acc.png)
+
+# Acknowledgement
+
+Special thanks to Asha Limbu for her work in creating the UI/UX design.
+
+- Follow Asha on [LinkedIn](https://www.linkedin.com/in/ashalimbu/)
+- Connect with her on [GitHub](https://github.com/asha-limbu)
