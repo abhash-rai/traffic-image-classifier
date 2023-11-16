@@ -140,7 +140,7 @@ It generates prediction confidence scores represented by 5 consecutive numbers, 
 
 ![Data split distribution chart](./documentation/data_split.png)
 
-The data has been partitioned into three sets for training, and validation, each containing samples from five distinct classes. The split ratios are as follows: 85% for training, 15% for validation. Despite the limited data, the model successfully met my expectations:
+The data was partitioned into three sets for training, and validation, each containing samples from five distinct classes. The split ratios are as follows: 85% for training, 15% for validation. Despite the limited data, the model successfully met my expectations:
 
 > #### For validation data:
 
