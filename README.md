@@ -132,6 +132,8 @@ Non-trainable params: 20,866,536
 _________________________________________________________________
 ```
 
+The model needs a 300x300 pixel color image represented a NumPy array with RGB (3 channels). So, the input array must be of shape (1, 300, 300, 3). You don't have to worry about normalizing the pixel values (scaling by 1/255) because the first four layers of the model take care of it.
+
 # Model Evaluation
 
 ![Data split distribution chart](./documentation/data_split.png)
