@@ -132,7 +132,9 @@ Non-trainable params: 20,866,536
 _________________________________________________________________
 ```
 
-The model needs a 300x300 pixel color image represented a NumPy array with RGB (3 channels). So, the input array must be of shape (1, 300, 300, 3). You don't have to worry about normalizing the pixel values (scaling by 1/255) because the first four layers of the model take care of it.
+The model needs input of a 300x300 pixel color image represented a NumPy array with RGB (3 channels). So, the input array must be of shape (1, 300, 300, 3). You don't have to worry about normalizing the pixel values (scaling by 1/255) because the first four layers of the model take care of it.
+
+It generates prediction confidence scores represented by 5 consecutive numbers, each corresponding to a specific class: congested_traffic, heavy_traffic, light_traffic, moderate_traffic, and traffic_unrelated (in the specified order).
 
 # Model Evaluation
 
