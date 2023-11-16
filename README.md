@@ -216,5 +216,4 @@ weighted avg       0.97      0.97      0.97     10755
 
 Special thanks to Asha Limbu for her work in creating the UI/UX design.
 
-- Follow Asha on [LinkedIn](https://www.linkedin.com/in/ashalimbu/)
-- Connect with her on [GitHub](https://github.com/asha-limbu)
+- Connect with Asha on [LinkedIn](https://www.linkedin.com/in/ashalimbu/) or [GitHub](https://github.com/asha-limbu)
